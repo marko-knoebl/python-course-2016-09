@@ -1,0 +1,7 @@
+buy 10m2 of wood;False;12-SEP-2017
+paint new toys;False;14-SEP-2017
+send invoices to regular customers;True;08-SEP-2017
+call potential big customer;False;15-SEP-2017
+organize company picnic;True;22-AUG-2017
+deliver raw material;True;02-SEP-2017
+buy more blue color;False;07-OCT-2017
