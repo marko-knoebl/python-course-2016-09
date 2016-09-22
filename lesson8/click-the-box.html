@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Das ist ein HTML-Dokument. Es ist aus einem Baum von
+  Elementen aufgebaut, die sogenannte Anfangs- und Endtags haben
+  zB <head> und </head>  -->
+  <head>
+    <!-- Im 'Head' stehen ein paar Informationen zum Dokument -->
+    <meta charset="utf-8">
+    <title>Click the box</title>
+  </head>
+  <body>
+    <!-- Im 'Body' ist die Hauptstruktur zu finden -->
+    
+    <h1>Click the Box</h1>
+    <p>Klicke möglichst oft auf die Box, bevor die Zeit abläuft!</p>
+    
+    <!-- Ein <div>-Element ist ein allgemeines rechteckiges Element,
+         das Beliebigen Inhalt haben kann -->
+    <div id="container">
+      <div id="box">0</div>
+    </div>
+
+    <style>
+      /* Jetzt sind wir in einem "stylesheet/CSS"-Block. Wir weisen damit
+         unseren Elementen ein Aussehen zu.
+         CSS ist eine ganz andere Sprache als HTML
+      */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #container {
+        width: 450px;
+        height: 450px;
+        background-color: silver;
+        position: relative;
+      }
+      #box {
+        /* Breite und Höhe der Box in Pixeln */
+        width: 50px;
+        height: 50px;
+        /* Art der Positionierung */
+        position: absolute;
+        /* Abstand von oben / links - diese werden wir im Programm ändern müssen */
+        top: 200px;
+        left: 200px;
+        background-color: blue;
+        text-align: center;
+        font-size: 40px;
+        border-radius: 3px;
+        transition-duration: 0.5s;
+        transition-property: top, left;
+      }
+    </style>
+    <script>
+    
+      // unser JavaScript-Code kommt hierher
+    
+    </script>
+  </body>
+</html>
